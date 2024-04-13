@@ -52,6 +52,7 @@ int left_height(const binary_tree_t *tree);
 int is_full_recursive(const binary_tree_t *tree);
 size_t binary_tree_children(const binary_tree_t *tree);
 size_t binary_tree_leaves(const binary_tree_t *tree);
+void binary_tree_print(const binary_tree_t *);
 
 #endif /* BINARY_TREES_H */
 
